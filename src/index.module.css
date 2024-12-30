@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* styles.css */
+.loginBackground {
+  background-image: url("./assets/marvelheroes-omega-en-4k-j09hvi3cnp8cdbx0.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

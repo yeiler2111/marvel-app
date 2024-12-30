@@ -1,0 +1,99 @@
+/* Estilos para el contenedor de las series */
+.series-list {
+  color: black;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Asegura un mínimo de 300px por tarjeta */
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  margin: 0;
+}
+
+/* Estilos para cada tarjeta de la serie */
+.series-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 400px; /* Altura fija para todas las tarjetas */
+  max-width: 300px; /* Ancho fijo */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.series-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen de la serie */
+.series-card img {
+  width: 100%;
+  height: 180px; /* Altura fija para la imagen */
+  object-fit: cover; /* Asegura que la imagen no se distorsione */
+  border-bottom: 2px solid #f1f1f1;
+}
+
+/* Título de la serie */
+.series-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0;
+  padding: 0 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Descripción de la serie */
+.series-card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 5px 0 10px;
+  padding: 0 15px;
+  height: 40px; /* Altura fija para la descripción */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Botón de ver detalles */
+.series-card .details-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.series-card .details-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Contenedor para cuando no hay series disponibles */
+.no-series {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Altura fija o dinámica para centrar verticalmente */
+  color: black;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #f9f9f9; /* Opcional: Fondo para resaltar */
+  border-radius: 8px; /* Opcional: Bordes redondeados */
+}

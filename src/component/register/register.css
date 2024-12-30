@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.sizes_form{
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 2rem;
+}

@@ -1,0 +1,103 @@
+/* Estilos generales para el contenedor del detalle del personaje */
+.character-details {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #1f1f1f; /* Fondo oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    color: #f5f5f5; /* Color de texto claro para contraste */
+  }
+  
+  /* Estilos para el encabezado del personaje */
+  .character-header {
+    margin-bottom: 20px;
+  }
+  
+  .character-header h2 {
+    color: #ff5733; /* Rojo cálido para el título */
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .character-header p {
+    font-size: 16px;
+    color: #ccc; /* Color de texto suave */
+  }
+  
+  .character-header small {
+    font-size: 14px;
+    color: #999; /* Color de texto más suave */
+  }
+  
+  .character-header a {
+    color: #ff5733; /* Rojo cálido */
+    text-decoration: none;
+  }
+  
+  .character-header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la imagen del personaje */
+  .character-thumbnail {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .character-thumbnail img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 4px solid #ff5733; /* Bordes rojos cálidos */
+  }
+  
+  /* Estilos para las secciones de comics, series, stories y events */
+  .comics, .series, .stories, .events {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: #ff5733; /* Rojo cálido para los subtítulos */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  ul li a {
+    color: #f5f5f5; /* Texto blanco para los enlaces */
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: #ff5733; /* Rojo cálido en hover */
+    text-decoration: underline;
+  }
+  
+  ul li a:focus {
+    outline: none;
+    text-decoration: underline;
+  }
+  
+  /* Estilos adicionales para la maquetación */
+  a {
+    color: #ff5733; /* Rojo cálido */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
